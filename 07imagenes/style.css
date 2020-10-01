@@ -1,0 +1,50 @@
+body{
+    /* background-color: coral; */
+    font-family: cursive;
+}
+
+.titulo{
+    background-color: teal;
+    color: yellow;
+    text-align: center;
+    width: 60%;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+/* 1) nombre de etiqueta */
+
+img{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    /* cursor */
+    cursor: pointer;
+
+    
+    /* 0-1 .1, .5  */
+    opacity: .7;
+    /* transition [all] a todo el elemento [tiempo] */
+    transition: all .6s;
+}
+
+img:hover{
+    opacity: 1;
+    width: 510px;
+    height: 310px;
+    transition: all .6s;
+    border-bottom-right-radius: 20%;
+    
+}
+
+
+/* 2) clase . */
+
+.fondo{
+    /* ancho */
+    width: 100%;
+    /* altura */
+    height: 500px;
+}
+ 
+/* 3) id  # */

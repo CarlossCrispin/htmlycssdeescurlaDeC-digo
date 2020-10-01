@@ -1,0 +1,74 @@
+body{
+    background-color: indianred;
+    color: white;
+    font-family: fantasy;
+    /* espacion entre letras*/
+    letter-spacing: 10px;
+    /* modificar la fuente */
+    text-transform: uppercase;
+}
+
+/* herencia */
+.titulo{
+    background-color: coral;
+    text-align: center;
+    margin-left: 50%;
+    width: 50%;
+    border-bottom-left-radius: 20px;
+    padding:10px;
+}
+
+form{
+    background-color: burlywood;
+    width: 60%;
+    margin-left: 20%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+/* especificidad */
+/* input 1) nombre de etiqueta */
+/* .caja 2) clase */
+
+.caja{
+    width: 50%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px dashed yellow;
+    transition: all .6s;
+}
+
+.caja:hover{
+    border-bottom: 5px dashed yellowgreen;
+    transition: all .6s;
+}
+
+/* pseudoselector */
+/* focus enfoca cuando damos clic */
+input[type="text"]:focus,input[type="number"]:focus{
+    background-color: black;
+    color: white;
+    width: 60%;
+    transition: all .6s;
+}
+
+input[type="email"]:focus,input[type="password"]:focus{
+    background-color: #0dcf75;
+    color: white;
+    width: 60%;
+    transition: all .6s;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    background-color: darkcyan;
+    border-radius: 50%;
+}
+
+button:hover{
+    height: 60px;
+    width: 60px;
+}

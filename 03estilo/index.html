@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- le da instrucciones al cuerpo -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- html -->
+    <!-- etiqueta de bloque -->
+    <style>
+        /* css */
+        /* llaves = bloque de código { } */
+        /* mi selector apunta o selecciona a las etiquetas p */
+        /* selector 1 nombre de etiqueta o elemento */
+        p{
+            background-color: blue;
+            color:crimson;
+        }
+        /* selector 2 clase declarar un (punto) . seguido de un nombre*/
+        /* selector de clase */
+        .parrafo1{
+            background-color: greenyellow;
+            color: blue;
+        }
+        .parrafo2{
+            background-color: blueviolet;
+            color: brown;
+        }
+        .parrafo3{
+            background-color: green;
+            color: coral;
+        }
+        /* selector 3 es id  declarar el # seguido de un nombre sin espacio */
+        #parrafo4{
+            background-color: black;
+            color: goldenrod;
+        }
+        
+    </style>
+    <!-- rel = relacion -->
+    <!-- href  hiperviculo de referencia = dime el nombre del doc con extesion -->
+    <link rel="stylesheet" href="style.css">
+    <title>Estilo</title>
+</head>
+<body>
+
+
+
+
+    <h1 class="titulo">Estilo 30%</h1>
+    
+    <!-- con emmet donde [h1] es el nombre d ela etiqueta [.] referencia a la clase [titulo] nombre de la clase [>] mayor que = dentro del h1 o cerrando el braket de inicio [{}] para escribir texto [Estilo] se muestra en pantalla-->
+    <!-- h1.titulo>{Estilo}  -->
+
+   
+
+
+
+
+
+
+
+
+    <!-- sintaxis = la forma correcta de escribir código -->
+    <h1 style="background-color: cyan;color:coral;text-align: center;">Estilo</h1>
+    <!-- estilo en linea CSS V1 -->
+    <h2>Estilo en línea v1</h2>
+    <p style="background-color: red;color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magni repudiandae aspernatur illo sequi atque at id saepe temporibus commodi?</p>
+    <hr>
+
+    <h2>Estilo global o embebido v2</h2>
+    <!-- estilo global o embebido CSS v2 -->
+    <!-- x dentro de  y -->
+
+    <p>selector por clase</p>
+    <!-- verde con azul -->
+    <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem libero ratione nobis cupiditate quo laboriosam numquam, vel dicta delectus blanditiis. Iusto nostrum id accusamus cumque facilis ducimus quisquam possimus eum quibusdam quod eveniet impedit animi dolorem harum rem, obcaecati sint?</p>
+
+    <!-- morada con cafe -->
+    <p class="parrafo2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, inventore?</p>
+
+    <!-- verde y coral -->
+    <p class="parrafo3">Lorem ipsum dolor sit.</p>
+   
+
+    <p>selector por id</p>
+    <!-- llamando al selector id -->
+    <p id="parrafo4">esto es un pàrrafo con estilo embebido o global y selector id</p>
+
+    <hr>
+    <!-- estilo externo CSS v3 actual -->
+    <h2>Estilo externo v3</h2>
+
+    <p class="jess">esto es un párrafo con la clase jess</p>
+    <em class="danny"> esto es una etiqueta de texto cursivo con clase danny</em>
+    <br>
+    <del class="iracel">esto es una etiqueta para texto tachado con clase iracel</del>
+
+    <h4>Osos</h4>
+    <ul>
+        <li id="OSO">Peludos</li>
+        <li id="OSO">Grandes</li>
+        <li id="OSO">Feroces</li>
+    </ul>
+
+    <h4>Jirafas</h4>
+    <ol>
+        <li id="JIRAFA">Altas</li>
+        <li id="JIRAFA">Manchas</li>
+        <li id="JIRAFA">Herbívoras</li>
+    </ol>
+
+    <h4>Delfines</h4>
+    <ul>
+        <li id="DELFIN">Inteligentes</li>
+        <li id="DELFIN">Tiernos</li>
+        <li id="DELFIN">Grandes</li>
+    </ul>
+
+    <!-- emmet + -->
+    <!-- ul>(li#OSO>{text $})*5 -->
+    <!-- seleccionar bloque o código a copiar y presionar shift + alt + tecla  abajo  -->
+</body>
+</html>

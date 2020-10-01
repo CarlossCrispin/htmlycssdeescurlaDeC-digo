@@ -1,0 +1,87 @@
+/* RGB */
+/* red green blue */
+/* va del 0 al 254 es el porcentaje de color en rojo, verde y azul */
+/* (199 de rojo, 136 de verde, 154 de azul) */
+/* 8bits */
+
+/* css hoja de estilo en cascada */
+body{
+    /* RGB */
+    background-color: rgb(144, 238, 144);
+    /* RGBA */
+    /* a alfa = difuminado transparencia */
+    background-color: rgba(254, 2, 2, 0.74);
+    /* hexadecimal #y seis digitos */
+    background-color: #f1ff;
+    /* HSl */
+    /* hue = matiz */
+    /* intensidad */
+    /* luminosidad */
+    background-color: hsl(240, 100%, 50%);
+    /* HSLA */
+    /* canal alfa del 0 al 1 decimales */
+    background-color: hsla(120,100%,50%,0.3);
+
+    /* hexadecimal */
+    background-color: #F3D2B3;
+}
+
+
+/* *************************** */
+/* **** PALETA DE COLORES **** */
+/* *************************** */
+
+/* CSS HEX */
+/* 555b6e,89b0ae,bee3db,faf9f9,ffd6ba */
+
+/* Color Theme Swatches in Hex */
+.color-1 { color: #F3D2B3; }
+.color-2 { color: #F2B8A2; }
+.color-3 { color: #F38C8D; }
+.color-4 { color: #548EA6; }
+.color-5 { color: #2C5F72; }
+
+
+
+
+body{
+    background-color: #2C5F72;
+    color: #ee9ca7;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Lato', sans-serif; */
+    
+    /* font-family: 'Open Sans', sans-serif; */
+    
+    
+}
+
+
+p{
+    color:#F38C8D ;
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 30%;
+}
+
+.icono{
+    width: 100px;
+}
+
+

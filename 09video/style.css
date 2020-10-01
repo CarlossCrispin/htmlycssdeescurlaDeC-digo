@@ -1,0 +1,26 @@
+body{
+    background-color: indianred;
+    color: white;
+    font-family: fantasy;
+    /* espacion entre letras*/
+    letter-spacing: 10px;
+    /* modificar la fuente */
+    text-transform: uppercase;
+}
+
+/* herencia */
+.titulo{
+    background-color: coral;
+    text-align: center;
+    margin-left: 50%;
+    width: 50%;
+    border-bottom-left-radius: 20px;
+    padding:10px;
+}
+
+
+video{
+    width: 100%;
+    height: 100vh;
+    opacity: .2;
+}

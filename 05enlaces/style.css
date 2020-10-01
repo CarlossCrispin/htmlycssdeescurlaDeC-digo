@@ -1,0 +1,34 @@
+body{
+    background-color: lightseagreen;
+}
+
+.titulo{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    padding: 10px;
+    color: darkcyan;
+    background-color: cadetblue;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+a{
+   font-size: 55px; 
+   /* tipo de fuente */
+   font-family: cursive;
+   color: white;
+   /* text decoration =  */
+   text-decoration: none;
+}
+
+/* pseudo selectores */
+/* [selctor]:hover flotando*/
+a:hover{
+    color: yellow;
+    font-size: 65px; 
+}
+
+.enlace{
+
+}

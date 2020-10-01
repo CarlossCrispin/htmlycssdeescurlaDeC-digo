@@ -1,0 +1,82 @@
+/* selector, bloque llaves y dentro propiedad valor */
+/* 3 tipos de selectores  */
+
+/* 1)por nombre de etiqueta */
+/* 2) por clase [.X] */
+/* 3) por id [#X] */
+
+/* p = nombre de la etiqueta es 'p' */
+/* toda la página */
+/* todo lo de atrás */
+
+
+
+/* 1 POR NOMBRE DE ETIQUETA */
+body{
+    background-color:lightsalmon;
+
+}
+
+.titulo{
+    /* las etiquetas tienen un 100%de ancho  */
+    background-color: aqua;
+    /* alinea el texto = contenido */
+    text-align: center;
+    /* ancho = width */
+    width: 30%;
+    /* margen  = margin  4 vectores 
+    [ 
+        top - arriba 
+        left - izquierdo
+        bottom - bajo
+        right - derecha
+        margin-[vector]
+    ]*/
+    /* px % */
+    margin-left:35%;
+    margin-right:35%;
+    /* border */
+    /* recibe 3 valores */
+    /* [ tamaño 0 ancho | aspecto | color]*/
+    border: 8px dotted greenyellow ;
+    /* radio */
+    border-radius: 20px;
+
+    /* padding = relleno margen interno dentro del borde */
+    padding: 30px;
+}
+
+/* 2 POR CLASE  */
+.iracel{
+    color:white;
+    background-color:violet ;
+}
+
+.jess{
+    color:black;
+    background-color:lightskyblue ;
+}
+
+.danny{
+    color:red;
+    background-color:salmon ;
+}
+
+/* 3 POR ID */
+
+#OSO{
+    color:lightskyblue;
+    background-color:black ;
+}
+
+#JIRAFA{
+    color:violet;
+    background-color:white ;
+    text-align: center;
+}
+
+#DELFIN{
+    color:salmon;
+    background-color:red ;
+    text-align: right;
+}

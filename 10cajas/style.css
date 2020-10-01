@@ -1,0 +1,119 @@
+body{
+    background-color:lightslategray;
+    color: white;
+    font-family: fantasy;
+    /* espacion entre letras*/
+    letter-spacing: 10px;
+    /* modificar la fuente */
+    text-transform: uppercase;
+
+}
+
+/* herencia */
+.titulo{
+    background-color: coral;
+    text-align: center;
+    margin-left: 50%;
+    width: 50%;
+    border-bottom-left-radius: 20px;
+    padding:10px;
+}
+
+.principal{
+    /* flxible el área */
+    display: flex;
+    /* height: 90vh; */
+    border: 2px solid teal;
+   /*  padding: 20px;
+    margin-top: 20px; */
+    /* eje x */
+    justify-content: center;
+    /* eje y */
+    align-items: center;
+    /* comportameinto de fila o columna */
+    /* flex-direction: column; */
+}
+
+.caja{
+    border: 2px solid coral;
+}
+
+
+.fila-1{
+    display: flex;
+    padding: 20px;
+    border: 5px dotted cyan;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.caja-1{
+    border: 2px solid coral;
+    width: 500px;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.columna{
+    display: flex;
+    padding: 20px;
+    border: 5px dashed palevioletred;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+table{
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgb(7, 156, 161);
+    border: 5px solid white;
+    padding: 20px;
+}
+
+th{
+    background-color: orangered;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+td{
+    text-align: center;
+}
+
+th, td{
+    border: 5px solid coral;
+    padding: 15px;
+    border-radius: 55px;
+}
+
+.fila-2{
+    display: flex;
+    padding: 20px;
+    border: 5px double greenyellow;
+    margin: 10px;
+    justify-content: space-between;
+}
+input{
+    width: 50%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px dashed yellow;
+    transition: all .6s;
+    color: white;
+}
+input[type="text"]:focus,input[type="number"]:focus{
+    background-color: black;
+    color: white;
+    width: 60%;
+    transition: all .6s;
+}
+video{
+    width: 50vh;
+}

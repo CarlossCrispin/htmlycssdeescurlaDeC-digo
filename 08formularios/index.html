@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1 class="titulo">formularios</h1>
+    
+    <!-- sixtaxis -->
+
+    <!-- form es un bloque -->
+
+    <!-- action nos permite manipular los datos -->
+    <!-- a donde los mandamos -->
+    <form action="">
+        <!-- par, nombra al input -->
+        <label for="nombre">Nombre:</label>
+        <!-- etiqueta sin cierre simple -->
+        <!-- atajo o shorcuts alt clic  multicursores-->
+        <input type="text" placeholder="ingresa tu nombre" required  class="caja">
+
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" placeholder=" ingresa tu edad" required min="1" max="110" class="caja">
+
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="ejemplo_correo@gmail.com" required class="caja">
+
+        <br>
+        <label for="contaseña">Contraseña</label>
+        <input type="password" placeholder="acá va tu contraseña" required minlength="5" maxlength="10" class="caja">
+        <br>
+
+        <!-- univalor -->
+        <!-- Género 3  hombre, mujer u otro  -->
+
+        <!-- shift + alt + flecha arriba ; -->
+        <p>Selecciona tu género:</p>
+        <input type="radio" id="m" name="genero">  
+        <label for="mujer">MUJER</label>
+        <br>
+        <input type="radio" id="h" name="genero">
+        <label for="hombre">HOMBRE</label>
+        <br>
+        <input type="radio" id="o" name="genero">
+        <label for="otro" >OTRO</label>
+        <br>
+    
+        <!-- multivalor --> 
+
+        <p>Selecciona tus bebeidas favoritas</p>
+
+        <input type="checkbox" name="fav" id="cafe">
+        <label for="cafe">Café</label>
+        <br>
+        <input type="checkbox" name="fav" id="agua">
+        <label for="agua">Agua</label>
+        <br>
+        <input type="checkbox" name="fav" id="jugo">
+        <label for="jugo">Jugo</label>
+        <br>
+        <input type="checkbox" name="fav" id="tinto">
+        <label for="tinto">Tinto</label>
+        <br>
+
+
+
+        <button>Envíar</button>
+    </form>
+
+
+</body>
+</html>
